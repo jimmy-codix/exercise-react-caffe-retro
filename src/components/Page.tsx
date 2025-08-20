@@ -15,7 +15,7 @@ export const Page = ({ id, redBoxTopText, redBoxBottomText, headerText, children
         <h2>{headerText}</h2>
         <RedBox className="box red top" text={redBoxTopText} />
         <RedBox className="box red bottom" text={redBoxBottomText} />
-        <div className="content">{children}</div>
+        <div className="box black">{children}</div>
     </section>
   )
 };
