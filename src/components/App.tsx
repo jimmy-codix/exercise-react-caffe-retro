@@ -1,13 +1,25 @@
-//import { useState } from 'react'
 import '../styles/App.css'
+import type { ICaffeData } from '../types/interfaces';
+import { Header } from './Header'
+import { Page } from './Page'
+import { caffeData} from './CaffeData'
+//import bild from '../assets/ima'
 
 function App() {
-  //const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Welcome to the Cafe Retro</h1>
-      <p>Enjoy our delicious coffee and pastries!</p>
+      <Header />
+      {caffeData.map((item: ICaffeData) => (
+        <Page 
+          key={item.id}
+          id={item.id}
+          headerText={item.headerText}
+          redBoxTopText={item.redBoxTopText}
+          redBoxBottomText={item.redBoxBottomText}
+        >
+          {item.content}
+        </Page>
+      ))}
     </>
   )
 }
