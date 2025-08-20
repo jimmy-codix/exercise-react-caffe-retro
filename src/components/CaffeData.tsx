@@ -53,8 +53,8 @@ export const caffeData: ICaffeData[] = [
     )
   },
   {
-    id: "cozy",
-    headerText: "Cozy",
+    id: "cosy",
+    headerText: "Cosy",
     bgImageSrc: "./images/cozy-cafe.jpg",
     redBoxTopText: "Hang around. Enjoy the settings.",
     redBoxBottomText: "Use our fast WiFi. Borrow a newspaper or a novel.",
