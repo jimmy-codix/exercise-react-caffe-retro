@@ -1,9 +1,7 @@
-import '../styles/App.css'
 import type { ICaffeData } from '../types/interfaces';
-import { Header } from './Header'
-import { Page } from './Page'
-import { caffeData} from './CaffeData'
-//import bild from '../assets/ima'
+import { Header } from './Header';
+import { Page } from './Page';
+import { caffeData} from '../data/caffeData';
 
 function App() {
   return (
