@@ -1,0 +1,35 @@
+.box {
+  width: 500px;
+}
+
+.box.red,
+.box.black {
+  padding-block: 1rem;
+}
+
+.box.red {
+  background-color: var(--redalpha);
+
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+}
+
+.box.red.top {
+  right: 6rem;
+}
+
+.box.red.bottom {
+  left: 6rem;
+}
+
+.box.black {
+  background-color: var(--blackalpha);
+  padding-inline: 4rem;
+}
+
+.box.black .row {
+  display: flex;
+  justify-content: space-between;
+}

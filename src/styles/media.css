@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+  .box.red {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    gap: 2rem;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box.red,
+  .box.black {
+    padding-inline: 1rem;
+  }
+
+  .box.red.bottom {
+    display: none;
+  }
+
+  .section {
+    padding-inline: 2rem;
+  }
+}

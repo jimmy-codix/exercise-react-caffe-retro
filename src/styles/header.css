@@ -1,0 +1,19 @@
+.header {
+  background-color: var(--blackalpha);
+  padding: 1rem;
+  width: 100%;
+
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header .link {
+  color: whitesmoke;
+  font-size: 2rem;
+  text-decoration: none;
+}

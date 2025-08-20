@@ -1,0 +1,29 @@
+.section {
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1rem solid var(--darkred);
+  box-sizing: content-box;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section#hot {
+  background-image: url('../images/hot.jpg');
+}
+
+.section#juicy {
+  background-image: url('../images/juicy.jpg');
+}
+
+.section#cosy {
+  background-image: url('../images/cosy.jpg');
+}
